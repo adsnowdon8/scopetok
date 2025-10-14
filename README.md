@@ -12,7 +12,7 @@ Scopetok allows users to:
 
 ---
 
-## 🚀 Features
+## Features
 
 ### 🧭 Navigation
 
@@ -41,8 +41,8 @@ Scopetok allows users to:
 
 ### ✨ Splash Page
 
-- Beautiful 3-second branded splash overlay with loader dots.
-- Smooth fade transition to the main app while keeping the NavBar visible.
+- 3-second branded splash overlay with loader dots.
+- Keeping the NavBar visible for UX.
 
 ## 🧑‍💻 Setup Instructions
 
@@ -53,9 +53,13 @@ git clone https://github.com/<your-username>/scopetok.git
 cd scopetok
 ```
 
-### 2.Start the app
+### 2. Change the user_id
 
-First, run the development server:
+in src/app/page.tsx change the USER_ID variable to an appropriate value
+
+### 3. Start the app
+
+run the development server:
 
 ```bash
 npm run dev
@@ -67,6 +71,6 @@ pnpm dev
 bun dev
 ```
 
-### 3. Open
+### 4. Open
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

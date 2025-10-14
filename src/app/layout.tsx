@@ -1,60 +1,3 @@
-// import type { Metadata } from "next";
-// import { Geist, Geist_Mono } from "next/font/google";
-// import "./globals.css";
-
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
-
-// export const metadata: Metadata = {
-//   title: "Scope Tube",
-//   description: "A Video Player App",
-// };
-
-// // export default function RootLayout({
-// //   children,
-// // }: Readonly<{
-// //   children: React.ReactNode;
-// // }>) {
-// //   return (
-// //     <html lang="en">
-// //       <body
-// //         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-// //       >
-// //         {children}
-// //       </body>
-// //     </html>
-// //   );
-// // }
-
-// import "./globals.css";
-// import { NavBar } from "./components/NavBar";
-
-// export default function RootLayout({
-//   children,
-// }: {
-//   children: React.ReactNode;
-// }) {
-//   return (
-//     <html lang="en">
-//       <body
-//         className={`flex min-h-screen bg-gray-50 ${geistSans.variable} ${geistMono.variable} antialiased`}
-//       >
-//         <NavBar />
-//         <main className="flex-1 overflow-y-auto">{children}</main>
-
-//         {/* <main className="flex-1">{children}</main> */}
-//       </body>
-//     </html>
-//   );
-// }
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -115,7 +58,7 @@ export default function RootLayout({
 
           {/* Actual page content */}
           <div
-            className={`transition-opacity duration-700 ${
+            className={`transition-opacity duration-700 h-full ${
               showSplash ? "opacity-0" : "opacity-100"
             }`}
           >

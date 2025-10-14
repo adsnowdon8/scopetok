@@ -61,7 +61,3 @@ export const NavBar = () => {
     </aside>
   );
 };
-
-// <NavItem icon={"🏠"} text="Home" open={open} />
-// <NavItem icon={"➕"} text="Settings" open={open} />
-// <NavItem icon={"ℹ️"} text="About" open={open} />

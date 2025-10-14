@@ -1,7 +1,5 @@
 export default function InfoPage() {
   return (
-    // <div className="p-6">
-    // <h1 className="text-2xl font-bold">Info Page</h1>
     <main className="p-8 max-w-4xl mx-auto">
       <h1 className="text-3xl font-bold mb-4 text-blue-600">About Scopetok</h1>
 
@@ -15,7 +13,6 @@ export default function InfoPage() {
         <li>Video listing and playback</li>
         <li>User comments with live updates</li>
         <li>Adding new videos through a form</li>
-        {/* <li>Responsive sidebar navigation</li> */}
       </ul>
 
       <p className="mb-4 text-gray-700">
@@ -33,6 +30,5 @@ export default function InfoPage() {
 
       <p className="mt-6 text-gray-600">Thank you for your time! 🚀</p>
     </main>
-    // </div>
   );
 }
