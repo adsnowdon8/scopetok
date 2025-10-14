@@ -2,7 +2,7 @@
 
 A clean, responsive video browsing platform built with **Next.js 14**, **TypeScript**, and **Tailwind CSS**.
 
-Scopetube allows users to:
+Scopetok allows users to:
 
 - Browse and watch videos.
 - View and post comments.
@@ -21,7 +21,7 @@ Scopetube allows users to:
 
 ### 🎬 Video Player
 
-- Integrated video player supporting a variety of URLs, including file paths, HLS, DASH, YouTube, Vimeo, Wistia and Mux
+- Integrated video player supporting a variety of URLs, including file paths, HLS, DASH, Youtok, Vimeo, Wistia and Mux
 - Displays video title and description with centered caption and comments below.
 
 ### 💬 Comments
@@ -37,7 +37,7 @@ Scopetube allows users to:
 
 ### 💡 Info Page
 
-- Overview of the Scopetube app, purpose, and technologies used.
+- Overview of the Scopetok app, purpose, and technologies used.
 
 ### ✨ Splash Page
 
@@ -49,11 +49,11 @@ Scopetube allows users to:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/scopetube.git
-cd scopetube
+git clone https://github.com/<your-username>/scopetok.git
+cd scopetok
 ```
 
-## 2.Start the app
+### 2.Start the app
 
 First, run the development server:
 
@@ -67,6 +67,6 @@ pnpm dev
 bun dev
 ```
 
-## 3. Open
+### 3. Open
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
