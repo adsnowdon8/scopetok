@@ -19,10 +19,14 @@ Scopetok allows users to:
 - Persistent sidebar (`NavBar`) with smooth open/close animation.
 - Dynamic routing between **Home**, **New Video**, and **Info** pages.
 
+![Nav image](public/readme_imgs/nav.png)
+
 ### 🎬 Video Player
 
 - Integrated video player supporting a variety of URLs, including file paths, HLS, DASH, Youtok, Vimeo, Wistia and Mux
 - Displays video title and description with centered caption and comments below.
+
+![video player](public/readme_imgs/videoPlayer.png)
 
 ### 💬 Comments
 
@@ -30,19 +34,27 @@ Scopetok allows users to:
 - Allows posting new comments instantly.
 - Displays 'time ago' that the comment was created.
 
+![Comments](public/readme_imgs/comments.png)
+
 ### 📤 Upload
 
 - Users can submit a **title**, **description**, and **video URL**.
 - Input validation ensures valid video URLs before submission.
 
+![new](public/readme_imgs/new.png)
+
 ### 💡 Info Page
 
 - Overview of the Scopetok app, purpose, and technologies used.
+
+![about](public/readme_imgs/about.png)
 
 ### ✨ Splash Page
 
 - 3-second branded splash overlay with loader dots.
 - Keeping the NavBar visible for UX.
+
+![Nav image](public/readme_imgs/splash.png)
 
 ## 🧑‍💻 Setup Instructions
 
@@ -55,7 +67,8 @@ cd scopetok
 
 ### 2. Change the user_id
 
-in src/app/page.tsx change the USER_ID variable to an appropriate value
+in [src/app/page.tsx#L14](src/app/page.tsx#L14)
+src/app/page.tsx change the USER_ID variable to an appropriate value
 
 ### 3. Start the app
 
