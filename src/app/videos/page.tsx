@@ -1,9 +1,10 @@
 "use client";
 import { useEffect, useState } from "react";
-import VideoList from "./videos/components/VideoList";
+import VideoList from "./components/VideoList";
 
 export interface Video {
-  id: string;
+  id: string; // user_id + title
+
   description: string;
   video_url: string;
   title: string;
